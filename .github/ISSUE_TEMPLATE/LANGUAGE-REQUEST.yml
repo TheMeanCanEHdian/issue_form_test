@@ -7,7 +7,7 @@ body:
     id: verify
     attributes:
       label: Have you verified that the language is not already on Weblate?
-      description: Please make sure this language is not already supported and just has [no translations on Weblate](https://hosted.weblate.org/projects/tautulli-remote/translations/)
+      description: Please make sure this language is not already supported and just has [no translations on Weblate](https://hosted.weblate.org/projects/tautulli-remote/translations/).
       options:
-        - label: I have verified this is a new language
+        - label: I have verified this language is not currently supported
           required: true
