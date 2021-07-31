@@ -4,8 +4,9 @@ labels: [bug, needs-review]
 body:
   - type: markdown
     attributes:
-      value: >
+      value: |
         Thanks for taking the time to fill out this bug report!
+        |
         Note: Please use [Discord](https://tautulli.com/discord) for support issues.
   - type: textarea
     id: what-happened
