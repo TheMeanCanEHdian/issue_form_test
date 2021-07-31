@@ -6,6 +6,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to help improve Tautulli Remote!
+        Note: For new language requests please use the New Language template.
   - type: textarea
     id: problem
     attributes:
