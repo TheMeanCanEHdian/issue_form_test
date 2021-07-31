@@ -1,0 +1,12 @@
+name: Request Language
+description: Request a new language for Tautulli Remote
+labels: [language]
+body:
+  - type: checkboxes
+    id: verify
+    attributes:
+      label: Have you verified that the language is not already on Weblate?
+      description: Please make sure this language is not already supported and just has [no translations on Weblate](https://hosted.weblate.org/projects/tautulli-remote/translations/)
+      options:
+        - label: I have verified this is a new language
+          required: true
