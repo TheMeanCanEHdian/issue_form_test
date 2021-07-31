@@ -19,6 +19,7 @@ body:
     attributes:
       label: Tautulli Remote Version
       description: What version of Tautulli Remote are you running?
+      placeholder: ex. v2.11.2
     validations:
       required: true
   - type: input
@@ -26,6 +27,7 @@ body:
     attributes:
       label: Tautulli Version
       description: What version of Tautulli are you running?
+      placeholder: ex. v2.7.5
     validations:
       required: true
   - type: input
