@@ -12,7 +12,9 @@ body:
     attributes:
       label: Is your feature request related to a problem?
       description: If so, please describe the problem.
-      placeholder: A clear and concise description of what the problem (if any) is. Ex. I'm always frustrated when [...]
+      placeholder: |
+      A clear and concise description of what the problem (if any) is.
+      Ex. I'm always frustrated when [...]
   - type: textarea
     id: feature
     attributes:
