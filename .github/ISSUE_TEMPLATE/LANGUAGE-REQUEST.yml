@@ -1,5 +1,6 @@
-name: Request Language
+name: New Language
 description: Request a new language for Tautulli Remote
+title: "Add <language> language"
 labels: [language]
 body:
   - type: checkboxes
