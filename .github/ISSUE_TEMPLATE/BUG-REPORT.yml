@@ -1,17 +1,16 @@
 name: Bug Report
-description: Please do not use bug reports for support issues.
-labels: [status:awaiting-triage, type:bug]
+description: Please do not use bug reports for support issues
+labels: [bug, needs-review]
 body:
   - type: markdown
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-        Make sure to close your issue when it's solved! If you found the solution yourself please comment so that others benefit from it.
-        THIS IS NOT THE PLACE TO ASK FOR SUPPORT! Please use [Discord](https://tautulli.com/discord) for support issues.
+        Note: Please use [Discord](https://tautulli.com/discord) for support issues.
   - type: textarea
     id: description
     attributes:
-      label: Describe the Bug
+      label: Describe the bug
       placeholder: A clear and concise description of the bug.
     validations:
       required: true
@@ -20,75 +19,49 @@ body:
     attributes:
       label: Steps to Reproduce
       placeholder: |
-        1. Go to '...'
-        2. Click on '...'
-        3. Scroll down to '...'
+        1. Go to [...]
+        2. Tap on [...]
+        3. Scroll down to [...]
         4. See error
   - type: textarea
     id: expected
     attributes:
       label: Expected Behavior
       placeholder: A clear and concise description of what you expected to happen.
-  - type: textarea
-    id: screenshots
-    attributes:
-      label: Screenshots
-      placeholder: Provide screenshots to help explain your problem.
-  - type: textarea
-    id: relevant
-    attributes:
-      label: Relevant Settings
-      placeholder: |
-        - eg. Plex Media Server IP address/port/checkboxes/proxy/etc.
-        - eg. Notification agent configuration/triggers/conditions/text/delay/grouping/etc.
-        - eg. Newsletter agent configuration/checkboxes/template/etc.
-        - Other settings
   - type: input
-    id: version
+    id: version-tautulli-remote
+    attributes:
+      label: Tautulli Remote Version
+      description: What version of Tautulli Remote are you running?
+      placeholder: ex. v2.11.2
+    validations:
+      required: true
+  - type: input
+    id: version-tautulli
     attributes:
       label: Tautulli Version
-      placeholder: ex. v2.7.5 (check Tautulli Settings > Help & Info page)
+      description: What version of Tautulli are you running?
+      placeholder: ex. v2.7.5
     validations:
       required: true
   - type: input
-    id: branch
+    id: mobile-device
     attributes:
-      label: Git Branch
-      placeholder: ex. master (check Tautulli Settings > Help & Info page)
+      label: Mobile Device
+      description: What device are you using?
+      placeholder: ex. Pixel 5, iPhone 12
     validations:
       required: true
   - type: input
-    id: hash
+    id: mobile-os
     attributes:
-      label: Git Commit Hash
-      placeholder: ex. `2cc5bf812fe05e0666aeaeb37ed550c59816fb4c` (check Tautulli Settings > Help & Info page)
+      label: Mobile OS
+      description: What OS version is your device running?
+      placeholder: ex. Android 11, iOS 14
     validations:
       required: true
-  - type: input
-    id: platform
+  - type: textarea
+    id: additional
     attributes:
-      label: Platform and Version
-      placeholder: ex. Windows 10 (check Tautulli Settings > Help & Info page)
-    validations:
-      required: true
-  - type: input
-    id: python
-    attributes:
-      label: Python Version
-      placeholder: ex. 3.8.10 (check Tautulli Settings > Help & Info page)
-    validations:
-      required: true
-  - type: input
-    id: browser
-    attributes:
-      label: Browser and Version
-      placeholder: ex. Chrome 88
-    validations:
-      required: true
-  - type: input
-    id: logs
-    attributes:
-      label: Link to logs
-      placeholder: Include a link to your **FULL** logs (not just a few lines) on [Gist](http://gist.github.com). _Do not upload attachments_.
-    validations:
-      required: true
+      label: Additional Context
+      description: Add any other context about the problem here.
