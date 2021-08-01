@@ -61,7 +61,7 @@ body:
     id: hash
     attributes:
       label: Git Commit Hash
-      placeholder: ex. `2cc5bf812fe05e0666aeaeb37ed550c59816fb4c` (check Tautulli Settings > Help & Info page)
+      placeholder: ex. 2cc5bf812fe05e0666aeaeb37ed550c59816fb4c (check Tautulli Settings > Help & Info page)
     validations:
       required: true
   - type: input
