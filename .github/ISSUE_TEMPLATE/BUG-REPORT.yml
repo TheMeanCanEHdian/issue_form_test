@@ -57,38 +57,3 @@ body:
       placeholder: ex. master (check Tautulli Settings > Help & Info page)
     validations:
       required: true
-  - type: input
-    id: hash
-    attributes:
-      label: Git Commit Hash
-      placeholder: ex. 2cc5bf812fe05e0666aeaeb37ed550c59816fb4c (check Tautulli Settings > Help & Info page)
-    validations:
-      required: true
-  - type: input
-    id: platform
-    attributes:
-      label: Platform and Version
-      placeholder: ex. Windows 10 (check Tautulli Settings > Help & Info page)
-    validations:
-      required: true
-  - type: input
-    id: python
-    attributes:
-      label: Python Version
-      placeholder: ex. 3.8.10 (check Tautulli Settings > Help & Info page)
-    validations:
-      required: true
-  - type: input
-    id: browser
-    attributes:
-      label: Browser and Version
-      placeholder: ex. Chrome 88
-    validations:
-      required: true
-  - type: input
-    id: logs
-    attributes:
-      label: Link to logs
-      placeholder: Include a link to your **FULL** logs (not just a few lines) on [Gist](http://gist.github.com). _Do not upload attachments_.
-    validations:
-      required: true
