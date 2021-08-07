@@ -93,7 +93,7 @@ body:
     id: logs
     attributes:
       label: Link to logs
-      description: Include a link to your **FULL** logs (not just a few lines) on [Gist](http://gist.github.com). _Do not upload attachments_.
+      description: Include a link to your **FULL** logs (not just a few lines) on [Gist](http://gist.github.com).
     validations:
       required: true
   - type: markdown
