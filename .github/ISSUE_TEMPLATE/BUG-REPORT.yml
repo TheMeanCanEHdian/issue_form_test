@@ -92,7 +92,7 @@ body:
   - type: input
     id: logs
     attributes:
-      label: Link to logs
+      label: Link to Logs
       description: Include a link to your **FULL** logs (not just a few lines) on [Gist](http://gist.github.com).
     validations:
       required: true
