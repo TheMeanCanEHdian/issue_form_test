@@ -36,6 +36,7 @@ body:
     id: relevant
     attributes:
       label: Relevant Settings
+      description: Include all settings/configuration that are relevant to your issue. For example, Plex Media Server, newsletter, or notification settings.
       placeholder: |
         - eg. Plex Media Server IP address/port/checkboxes/proxy/etc.
         - eg. Notification agent configuration/triggers/conditions/text/delay/grouping/etc.
