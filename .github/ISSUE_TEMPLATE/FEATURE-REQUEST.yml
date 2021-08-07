@@ -11,7 +11,7 @@ body:
     attributes:
       label: Is your feature request related to a problem?
       description: If so, please provide clear and concise description of the problem.
-      placeholder: ex. I'm always frustrated when '...'
+      placeholder: eg. I'm always frustrated when '...'
   - type: textarea
     id: feature
     attributes:
