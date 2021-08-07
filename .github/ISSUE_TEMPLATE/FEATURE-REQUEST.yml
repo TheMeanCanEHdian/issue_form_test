@@ -1,12 +1,11 @@
 name: Feature Request
-description: Suggest a new feature for Tautulli Remote
-labels: [enhancement]
+description: Suggest a new feature for Tautulli.
+labels: ['status:awaiting-triage', 'type:enhancement']
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to help improve Tautulli Remote!
-        Note: For new language requests please use the New Language template.
+        Thanks for taking the time to help improve Tautulli!
   - type: textarea
     id: problem
     attributes:
