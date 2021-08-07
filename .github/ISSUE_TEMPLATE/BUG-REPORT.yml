@@ -17,6 +17,7 @@ body:
     id: steps
     attributes:
       label: Steps to Reproduce
+      description: List each action required in order to reproduce the issue.
       placeholder: |
         1. Go to '...'
         2. Click on '...'
