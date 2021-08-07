@@ -5,7 +5,6 @@ body:
   - type: markdown
     attributes:
       value: |
-        Make sure to close your issue when it's solved! If you found the solution yourself please comment so that others benefit from it.
         **THIS IS NOT THE PLACE TO ASK FOR SUPPORT!** Please use [Discord](https://tautulli.com/discord) for support issues.
   - type: textarea
     id: description
@@ -91,3 +90,7 @@ body:
       placeholder: Include a link to your **FULL** logs (not just a few lines) on [Gist](http://gist.github.com). _Do not upload attachments_.
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        Make sure to close your issue when it's solved! If you found the solution yourself please comment so that others benefit from it.
