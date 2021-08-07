@@ -46,7 +46,7 @@ body:
     attributes:
       label: Tautulli Version
       description: Check Tautulli Settings > Help & Info page.
-      placeholder: ex. v2.7.5
+      placeholder: eg. v2.7.5
     validations:
       required: true
   - type: input
@@ -54,7 +54,7 @@ body:
     attributes:
       label: Git Branch
       description: Check Tautulli Settings > Help & Info page.
-      placeholder: ex. master
+      placeholder: eg. master
     validations:
       required: true
   - type: input
@@ -62,7 +62,7 @@ body:
     attributes:
       label: Git Commit Hash
       description: Check Tautulli Settings > Help & Info page.
-      placeholder: ex. 2cc5bf812fe05e0666aeaeb37ed550c59816fb4c
+      placeholder: eg. 2cc5bf812fe05e0666aeaeb37ed550c59816fb4c
     validations:
       required: true
   - type: input
@@ -70,7 +70,7 @@ body:
     attributes:
       label: Platform and Version
       description: Check Tautulli Settings > Help & Info page.
-      placeholder: ex. Windows 10
+      placeholder: eg. Windows 10
     validations:
       required: true
   - type: input
@@ -78,14 +78,14 @@ body:
     attributes:
       label: Python Version
       description: Check Tautulli Settings > Help & Info page.
-      placeholder: ex. 3.8.10
+      placeholder: eg. 3.8.10
     validations:
       required: true
   - type: input
     id: browser
     attributes:
       label: Browser and Version
-      placeholder: ex. Chrome 88
+      placeholder: eg. Chrome 88
     validations:
       required: true
   - type: input
